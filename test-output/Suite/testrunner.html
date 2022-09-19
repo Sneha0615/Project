@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  testrunner</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testrunner</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 19 17:24:17 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20966 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.validdelete.f()'><b>f</b><br>Test class: testcase.validdelete</td>
+<td></td>
+<td>2</td>
+<td>testcase.validdelete@6f96c77</td></tr>
+<tr>
+<td title='testcase.validpost.f()'><b>f</b><br>Test class: testcase.validpost</td>
+<td></td>
+<td>1</td>
+<td>testcase.validpost@48e4374</td></tr>
+<tr>
+<td title='testcase.validpost_RS.f()'><b>f</b><br>Test class: testcase.validpost_RS</td>
+<td></td>
+<td>1</td>
+<td>testcase.validpost_RS@418e7838</td></tr>
+<tr>
+<td title='testcase.invalidget_singleresource.f()'><b>f</b><br>Test class: testcase.invalidget_singleresource</td>
+<td></td>
+<td>1</td>
+<td>testcase.invalidget_singleresource@4c9f8c13</td></tr>
+<tr>
+<td title='testcase.validget_singleresource.f()'><b>f</b><br>Test class: testcase.validget_singleresource</td>
+<td></td>
+<td>0</td>
+<td>testcase.validget_singleresource@3ba9ad43</td></tr>
+<tr>
+<td title='testcase.validpost_login.f()'><b>f</b><br>Test class: testcase.validpost_login</td>
+<td></td>
+<td>1</td>
+<td>testcase.validpost_login@3c419631</td></tr>
+<tr>
+<td title='testcase.singleget.f()'><b>f</b><br>Test class: testcase.singleget</td>
+<td></td>
+<td>0</td>
+<td>testcase.singleget@5ae50ce6</td></tr>
+<tr>
+<td title='testcase.validput.f()'><b>f</b><br>Test class: testcase.validput</td>
+<td></td>
+<td>1</td>
+<td>testcase.validput@3d680b5a</td></tr>
+<tr>
+<td title='testcase.validget.f()'><b>f</b><br>Test class: testcase.validget</td>
+<td></td>
+<td>1</td>
+<td>testcase.validget@5223e5ee</td></tr>
+<tr>
+<td title='testcase.validpatch.f()'><b>f</b><br>Test class: testcase.validpatch</td>
+<td></td>
+<td>1</td>
+<td>testcase.validpatch@49d904ec</td></tr>
+<tr>
+<td title='testcase.invalidpost_USR.f()'><b>f</b><br>Test class: testcase.invalidpost_USR</td>
+<td></td>
+<td>1</td>
+<td>testcase.invalidpost_USR@4a22f9e2</td></tr>
+<tr>
+<td title='testcase.invalidpost_login.f()'><b>f</b><br>Test class: testcase.invalidpost_login</td>
+<td></td>
+<td>2</td>
+<td>testcase.invalidpost_login@4b5d6a01</td></tr>
+<tr>
+<td title='testcase.validget_listresource.f()'><b>f</b><br>Test class: testcase.validget_listresource</td>
+<td></td>
+<td>0</td>
+<td>testcase.validget_listresource@be64738</td></tr>
+<tr>
+<td title='testcase.get_delayedresponse.f()'><b>f</b><br>Test class: testcase.get_delayedresponse</td>
+<td></td>
+<td>3</td>
+<td>testcase.get_delayedresponse@49b0b76</td></tr>
+<tr>
+<td title='testcase.invalidGet_single.f()'><b>f</b><br>Test class: testcase.invalidGet_single</td>
+<td></td>
+<td>0</td>
+<td>testcase.invalidGet_single@769f71a9</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testrunner(failed)">
+    <classes>
+      <class name="testcase.validpost">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testcase.validpost -->
+    </classes>
+  </test> <!-- testrunner(failed) -->
+</suite> <!-- Failed suite [Suite] -->
